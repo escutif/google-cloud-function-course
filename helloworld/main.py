@@ -1,4 +1,4 @@
-def hello_world(request):
+def hello_world2(request):
     request_args = request.args
     request_json = request.get_json(silent=True) #silent true, permite que sea optativo el json
     if request_args and 'name' in request_args and 'lastname' in request_args:
